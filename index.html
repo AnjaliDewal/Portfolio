@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anjali_Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sedan:ital@0;1&display=swap"
+        rel="stylesheet">
+
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgba(93, 93, 226, 0.616);
+            color: white;
+
+        }
+
+        nav {
+            /* position: fixed; */
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 50px;
+            background-color: rgb(144, 144, 212);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+            /* margin-top: 4px; */
+
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 20px;
+            margin-top: 5px;
+            font-size: 1.3rem;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            margin: 0 20px;
+            color: rgba(65, 57, 179, 0.726);
+        }
+
+        nav ul li a:hover {
+
+            color: rgba(19, 50, 97, 0.726);
+            font-size: 1.4rem;
+        }
+
+        .left {
+            font-size: 2rem;
+
+        }
+
+        .firstsection {
+            display: flex;
+            justify-content: space-around;
+            margin: 23px 0;
+        }
+
+        .firstsection>div {
+            width: 30%;
+        }
+
+        .leftsection {
+            align-items: center;
+            margin: 50px 0;
+            font-size: 2.5rem;
+            letter-spacing: 5px;
+            line-height: 42px;
+        }
+
+       
+
+        .rightsection img {
+            height: 350px;
+
+            margin: 24px 0;
+        }
+
+        .blue {
+            color: rgba(95, 23, 158, 0.952);
+            font-weight: bolder;
+        }
+
+        #element {
+            color: rgba(95, 23, 158, 0.952);
+            
+        }
+
+        .secondsection {
+            margin: auto;
+            max-width: 80%;
+
+        }
+
+        footer {
+            background-color: rgba(129, 129, 180, 0.979);
+            height: 110px;
+
+        }
+
+        .footer {
+            display: flex;
+            padding: 23px 100px;
+            justify-content: space-evenly;
+            align-items: center;
+
+
+        }
+
+        footer>div {
+            width: 70%;
+        }
+
+        .dibaskil {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+
+        }
+
+        h2 {
+            text-align: center;
+        }
+
+        .skill {
+            margin-bottom: 25px;
+        }
+
+        .skill h3 {
+            margin-bottom: 20px;
+        }
+
+        .skill-bar {
+            background-color: #f0f0f0;
+            height: 20px;
+            width: 100%;
+            border-radius: 10px;
+            overflow: hidden;
+            margin-bottom: 50px;
+        }
+
+        .skill-level {
+            height: 100%;
+        }
+
+        .html {
+            width: 80%;
+            background-color: #4CAF50;
+            /* Green */
+        }
+
+        .css {
+            width: 60%;
+            background-color: #008CBA;
+            /* Blue */
+        }
+
+
+
+
+        .container {
+            max-width: 500px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #7775e096;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        label {
+            font-weight: bold;
+            color: black;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        textarea {
+            width: 100%;
+            padding: 3px;
+            border: 1px solid #75bee0;
+            border-radius: 5px;
+        }
+
+        button {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            background-color: #007bff;
+            color: #fff;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Anjali_Dewal</div>
+            <div class="right">
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About</li></a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="">Projects</a></li>
+                    <li><a href="#contact">Contact Me </a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">Hey! My Name is <span class="blue">Anjali Dewal </span>
+
+                <div>I'm a Web Developer </div>
+                <div>at a starting point..</div>
+                <span id="element"></span>
+            </div>
+
+            <div class="rightsection">
+                <img src="devlpoer.png" alt="">
+            </div>
+        </section>
+        <section id="skills">
+            <div class="dibaskill">
+                <h2>Skills</h2>
+                <div class="skill">
+                    <h3>HTML</h3>
+                    <div class="skill-bar">
+                        <div class="skill-level html"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <h3>CSS</h3>
+                    <div class="skill-bar">
+                        <div class="skill-level css"></div>
+                    </div>
+                </div>
+        </section>
+        <section id="contact">
+            <div class="container">
+                <form action="#" method="post">
+                    <h2>Contact Me</h2>
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" rows="4" required></textarea>
+                    </div>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+
+
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Anjali's Developer Portfolio</h3>
+
+            </div>
+
+            <div class="footer-third">
+
+                Call
+                <br>
+                9643-9941-28
+
+            </div>
+            <div class="footer-fourth">
+
+                E-mail
+                <br>
+                dewalanjali0@gmail.com
+
+            </div>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['<i>WEB DEVELOPER. </i>', '&amp;  B.C.A Student'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
